@@ -182,7 +182,7 @@ class Movement:
 
 if __name__ == "__main__":
     root = Tk()
-    root.title("Snake Game                   *Developed by Jeetram yadav*")
+    root.title("Snake Game                   *Developed by Rohit Kumar Yadav*")
     game = Master(root)
     game.grid(column=1, row=0, rowspan=3)
     root.bind("<Key>", game.redirect)
